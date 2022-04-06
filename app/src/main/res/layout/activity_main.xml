@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:fontFamily="sans-serif-black"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="20sp"
+        android:singleLine="true"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/address_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:fontFamily="sans-serif-black"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:padding="20sp"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/date_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:fontFamily="sans-serif-black"
+        android:hint="Date"
+        android:inputType="date"
+        android:padding="20sp"
+        android:singleLine="true"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="128dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/getData_btn"
+        android:layout_width="128dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Get Data" />
+
+</LinearLayout>
